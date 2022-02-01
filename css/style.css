@@ -57,19 +57,19 @@ h1:hover{
     margin: 20px;
     text-align: center;
 }
-.container-first-line{
+.container-line{
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin: 50px 0px;
 }
-.container-first-line .candle-holder{
+.container-line .candle-holder{
     background-color:plum;
     width: 300px;
     height: 300px;
     padding: 30px;
     border-radius: 50px;
 }
-.container-first-line .candle-holder .container-image{
+.container-line .candle-holder .container-image{
     width: 120px;
     height: 120px;
     object-fit: cover;
@@ -98,15 +98,16 @@ h1:hover{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    cursor: pointer;
 }
-.container-first-line .plate{
+.container-line .plate{
     background-color:plum;
     width: 300px;
     height: 300px;
     padding: 30px;
     border-radius: 50px;
 }
-.container-first-line .plate .container-image{
+.container-line .plate .container-image{
     width: 120px;
     height: 120px;
     object-fit: cover;
@@ -127,14 +128,14 @@ h1:hover{
     font-size: 13px;
     text-align: center;
 }
-.container-first-line .Similarities{
+.container-line .Similarities{
     background-color:plum;
     width: 300px;
     height: 300px;
     padding: 30px;
     border-radius: 50px;
 }
-.container-first-line .Similarities .container-image{
+.container-line .Similarities .container-image{
     width: 120px;
     height: 120px;
     object-fit: cover;
@@ -150,10 +151,93 @@ h1:hover{
     color: black;
     text-align: center;
 }
-.Similarities >h4{
+.Similarities > h4{
     margin-top: 9px;
     color: grey;
     font-size: 13px;
     text-align: center;
 }
-
+.container-line .gift-set{
+    background-color:plum;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 50px;
+}
+.container-line .gift-set .container-image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gift-set > h2{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.gift-set > h4{
+    margin-top: 9px;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+}
+.container-line .candle{
+    background-color:plum;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 50px;
+}
+.container-line .candle .container-image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.candle > h2{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.candle > h4{
+    margin-top: 9px;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+}
+.container-line .evil{
+    background-color:plum;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 50px;
+}
+.container-line .evil .container-image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.evil > h2{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.evil > h4{
+    margin-top: 9px;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+}
