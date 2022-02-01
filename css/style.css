@@ -1,7 +1,27 @@
-header > h1{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 35px;
-    color: rgb(255, 131, 214);
+header{
+    background-color: rgb(3, 3, 54);
+    height: 50px;
 }
-
-
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li > h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: orchid;
+    cursor: pointer;
+}
+.heading{
+    margin: 15px;
+    text-align:center;
+}
+.li-a{
+    color: orangered;
+}
+.li-a:hover{
+    font-size: 30px;
+    color: red;
+}
