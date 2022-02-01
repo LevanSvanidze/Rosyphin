@@ -15,7 +15,7 @@ h1 > a {
     font-size: 40px;
     font-style: oblique;
     font-weight: bolder;
-    color: orchid;
+    color: rgb(211, 90, 165);
     cursor: pointer;
 }
 a:hover{
@@ -28,7 +28,7 @@ a:hover{
     text-align:center;
 }
 .li-a{
-    color: orangered;
+    color: rgb(255, 147, 214);
 }
 .li-a:hover{
     font-size: 30px;

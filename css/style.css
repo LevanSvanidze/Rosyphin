@@ -15,11 +15,11 @@ h1 {
     font-size: 40px;
     font-style: oblique;
     font-weight: bolder;
-    color: orchid;
+    color: rgb(211, 90, 165);
     cursor: pointer;
 }
 h1:hover{
-    font-size: 50px;
+    font-size: 45px;
     color: pink;
 }
 .heading{
@@ -28,23 +28,132 @@ h1:hover{
     text-align:center;
 }
 .li-a{
-    color: orangered;
+    color: rgb(255, 147, 214);
 }
 .li-a:hover{
     font-size: 30px;
     color: pink;
 }
-.main-photo{
-    margin-top: 50px;
-    width: 100%;
+/* section 1 */
+
+.section1{
+    background-image: url(../images/little\ things\ that\ turn\ a\ house\ into\ a\ home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
-                                /* section 1 */
-    
-.photos{
-    
+
+                                /* section 2 */
+
+.section2-p-1{
+    font-size: 55px;
+    margin: 20px;
+    text-align: center;
+}
+.container-first-line{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.container-first-line .candle-holder{
+    background-color:plum;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 50px;
+}
+.container-first-line .candle-holder .container-image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.candle-holder > h2{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.candle-holder >h4{
+    margin-top: 9px;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+}
+.button{
+    border: 2px whitesmoke solid;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.container-first-line .plate{
+    background-color:plum;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 50px;
+}
+.container-first-line .plate .container-image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plate > h2{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.plate >h4{
+    margin-top: 9px;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+}
+.container-first-line .Similarities{
+    background-color:plum;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 50px;
+}
+.container-first-line .Similarities .container-image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-
+.Similarities > h2{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.Similarities >h4{
+    margin-top: 9px;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+}
 
