@@ -15,7 +15,7 @@ h1 > a {
     font-size: 40px;
     font-style: oblique;
     font-weight: bolder;
-    color: rgb(211, 90, 165)d;
+    color: rgb(211, 90, 165);
     cursor: pointer;
 }
 a:hover{
