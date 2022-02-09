@@ -21,6 +21,7 @@ h1 {
 }
 h1:hover{
     font-size: 45px;
+    
     color: pink;
 }
 
@@ -72,11 +73,11 @@ h1:hover{
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .container-line .candle-holder .container-image{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 130px;
     object-fit: cover;
     border-radius: 20px;
     display: block;
@@ -110,11 +111,11 @@ h1:hover{
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .container-line .plate .container-image{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 130px;
     object-fit: cover;
     border-radius: 20px;
     display: block;
@@ -127,7 +128,7 @@ h1:hover{
     color: black;
     text-align: center;
 }
-.plate >h4{
+.plate > h4{
     margin-top: 9px;
     color: grey;
     font-size: 13px;
@@ -138,11 +139,11 @@ h1:hover{
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .container-line .Similarities .container-image{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 130px;
     object-fit: cover;
     border-radius: 20px;
     display: block;
@@ -167,11 +168,11 @@ h1:hover{
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .container-line .gift-set .container-image{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 130px;
     object-fit: cover;
     border-radius: 20px;
     display: block;
@@ -195,11 +196,11 @@ h1:hover{
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .container-line .candle .container-image{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 130px;
     object-fit: cover;
     border-radius: 20px;
     display: block;
@@ -223,11 +224,11 @@ h1:hover{
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .container-line .evil .container-image{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 130px;
     object-fit: cover;
     border-radius: 20px;
     display: block;
