@@ -60,6 +60,9 @@ h1:hover{
     margin: 20px;
     text-align: center;
 }
+.box{
+    margin-top: 10px;
+}
 .container-line{
     display: flex;
     justify-content: space-around;
@@ -72,11 +75,11 @@ h1:hover{
     height: 300px;
     padding: 30px;
     border-radius: 30px;
-    box-shadow: 0 5px 8px 0 rgb(181, 18, 231);
+    box-shadow: 0 10px 10px 0 rgb(181, 18, 231);
     transition: 0.8s;
 }
 .candle-holder:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.425);
 }
 .container-line .candle-holder .container-image{
     width: 200px;
@@ -109,17 +112,29 @@ h1:hover{
     width: 50%;
     cursor: pointer;
 }
+.button:hover{
+    border: 3px rebeccapurple solid;
+    background-color: burlywood;
+    border-radius: 20px;
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
 .container-line .plate{
     background-color:plum;
     width: 300px;
     height: 300px;
     padding: 30px;
     border-radius: 30px;
-    box-shadow: 0 5px 8px 0 rgb(181, 18, 231);
+    box-shadow: 0 10px 10px 0 rgb(181, 18, 231); 
     transition: 0.8s;
 }
 .plate:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.425);
 }
 .container-line .plate .container-image{
     width: 200px;
@@ -148,11 +163,11 @@ h1:hover{
     height: 300px;
     padding: 30px;
     border-radius: 30px;
-    box-shadow: 0 5px 8px 0 rgb(181, 18, 231);
+    box-shadow: 0 10px 10px 0 rgb(181, 18, 231);
     transition: 0.8s;
 }
 .Similarities:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.425);
 }
 .container-line .Similarities .container-image{
     width: 200px;
@@ -182,11 +197,11 @@ h1:hover{
     height: 300px;
     padding: 30px;
     border-radius: 30px;
-    box-shadow: 0 5px 8px 0 rgb(181, 18, 231) ;
+    box-shadow: 0 10px 10px 0 rgb(181, 18, 231);
     transition: 0.8s;
 }
 .gift-set:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.425);
 }
 .container-line .gift-set .container-image{
     width: 200px;
@@ -215,11 +230,11 @@ h1:hover{
     height: 300px;
     padding: 30px;
     border-radius: 30px;
-    box-shadow: 0 5px 8px 0 rgb(181, 18, 231);
+    box-shadow: 0 10px 10px 0 rgb(181, 18, 231);
     transition: 0.8s;
 }
 .candle:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.425);
 }
 .container-line .candle .container-image{
     width: 200px;
@@ -248,11 +263,11 @@ h1:hover{
     height: 300px;
     padding: 30px;
     border-radius: 30px;
-    box-shadow: 0 5px 8px 0 rgb(181, 18, 231);
+    box-shadow: 0 10px 10px 0 rgb(181, 18, 231);
     transition: 0.8s;
 }
 .evil:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.425);
 
 }
 .container-line .evil .container-image{
@@ -279,18 +294,17 @@ h1:hover{
                         /* section 3 */
 
 .section3{
-    height: 200px;
-    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     background-color: rgba(0, 0, 0, 0.164);
     border: yellow solid 5px;
-    margin: 50px;
-    margin-left: 150px;
     align-items: center;
 }
 
 .s3{
     width: 100%;
-    height: 400px;
 }
 .s3 h2{
     font-family: 'Nunito Sans', sans-serif;
