@@ -1,9 +1,7 @@
 @media (max-width:824px){
-    .box{
+    .container-line{
         display: flex;
         flex-direction: column;
     }
-    .show{
-        
-    }
+    
 }
