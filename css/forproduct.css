@@ -18,8 +18,7 @@ h1 > a {
     color: rgb(211, 90, 165);
 }
 a:hover{
-        font-size: 45px;
-        color: pink;
+        color: palevioletred;
 }
 .heading{
     font-family: 'Nunito Sans', sans-serif;
@@ -30,6 +29,5 @@ a:hover{
     color: rgb(255, 147, 214);
 }
 .li-a:hover{
-    font-size: 30px;
-    color:pink;
+    color:yellow;
 }

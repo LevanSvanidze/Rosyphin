@@ -20,9 +20,7 @@ h1 {
     cursor: pointer;
 }
 h1:hover{
-    font-size: 45px;
-    
-    color: pink;
+    color: palevioletred;
 }
 
 .heading{
@@ -37,7 +35,6 @@ h1:hover{
     color: rgb(255, 147, 214);
 }
 .li-a:hover{
-    font-size: 30px;
     color: #ffeb3b;
 }
 /* section 1 */
@@ -67,6 +64,7 @@ h1:hover{
     display: flex;
     justify-content: space-around;
     margin: 50px 0px;
+    
 }
 .container-line .candle-holder{
     background-color:plum;
@@ -74,6 +72,11 @@ h1:hover{
     height: 300px;
     padding: 30px;
     border-radius: 30px;
+    box-shadow: 0 5px 8px 0 rgb(181, 18, 231);
+    transition: 0.8s;
+}
+.candle-holder:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .container-line .candle-holder .container-image{
     width: 200px;
@@ -112,6 +115,11 @@ h1:hover{
     height: 300px;
     padding: 30px;
     border-radius: 30px;
+    box-shadow: 0 5px 8px 0 rgb(181, 18, 231);
+    transition: 0.8s;
+}
+.plate:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .container-line .plate .container-image{
     width: 200px;
@@ -140,6 +148,11 @@ h1:hover{
     height: 300px;
     padding: 30px;
     border-radius: 30px;
+    box-shadow: 0 5px 8px 0 rgb(181, 18, 231);
+    transition: 0.8s;
+}
+.Similarities:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .container-line .Similarities .container-image{
     width: 200px;
@@ -169,6 +182,11 @@ h1:hover{
     height: 300px;
     padding: 30px;
     border-radius: 30px;
+    box-shadow: 0 5px 8px 0 rgb(181, 18, 231) ;
+    transition: 0.8s;
+}
+.gift-set:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .container-line .gift-set .container-image{
     width: 200px;
@@ -197,6 +215,11 @@ h1:hover{
     height: 300px;
     padding: 30px;
     border-radius: 30px;
+    box-shadow: 0 5px 8px 0 rgb(181, 18, 231);
+    transition: 0.8s;
+}
+.candle:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .container-line .candle .container-image{
     width: 200px;
@@ -225,6 +248,12 @@ h1:hover{
     height: 300px;
     padding: 30px;
     border-radius: 30px;
+    box-shadow: 0 5px 8px 0 rgb(181, 18, 231);
+    transition: 0.8s;
+}
+.evil:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
 }
 .container-line .evil .container-image{
     width: 200px;
@@ -267,6 +296,7 @@ h1:hover{
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
     font-size: 35px;
+    margin-top: 10px;
     color: rgba(0, 0, 0, 0.705);
 }
 .s3 h3{
@@ -312,7 +342,7 @@ h1:hover{
     border-radius: 10px;
 }
 footer{
-    height: 300px;
+    height: 100%;
     width: 100%;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,0.9220822117909664) 50%, rgba(91,91,91,1) 100%); 
