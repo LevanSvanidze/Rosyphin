@@ -1,7 +1,55 @@
+@media (max-width:850px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-wrapper{
+        margin:30px 0;
+        width: 270px;
+    }
+    .footer-wrapper-2{
+        width: 300px;
+    }
+    .footer-wrapper-1 > h3{
+    margin-left: 100px;
+    display: flex;
+    font-size: 40px;
+    margin-bottom: 20px;
+    }
+    .footer-wrapper-1 > p{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .network{
+        margin-left: 70px;
+    }
+    .footer-wrapper > h3{
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
 @media (max-width:824px){
     .container-line{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    .candle-holder{
+        margin-bottom: 50px;
+    }
+    .plate{
+        margin-bottom: 50px;
+    }
+    .gift-set{
+        margin-bottom: 50px;
+    }
+    .candle{
+        margin-bottom: 50px;
     }
     
 }
