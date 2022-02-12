@@ -12,6 +12,7 @@ ul{
     justify-content:space-evenly;
 }
 h1 {
+    display: flex;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 40px;
     font-style: oblique;
@@ -37,7 +38,9 @@ h1:hover{
 .li-a:hover{
     color: #ffeb3b;
 }
-
+.nav-bar{
+    display: none;
+}
 /* section 1 */
 
 .section1{
