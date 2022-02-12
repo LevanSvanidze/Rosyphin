@@ -106,6 +106,7 @@
     }
     .nav-bar{
         margin-left: 500px;
+        align-items: center;
     }
     .first-nav h1{
         margin-right: 350px;
@@ -114,6 +115,7 @@
 @media (max-width:540px){
     .nav-bar{
         margin-left: 450px;
+        align-items: center;
     }
     .first-nav h1{
         margin-right: 200px;
@@ -122,6 +124,7 @@
 @media (max-width:490px){
     .nav-bar{
         margin-left: 380px;
+        align-items: center;
     }
 }
 @media (max-width:415px){
@@ -136,5 +139,6 @@
     }
     .nav-bar{
         margin-left: 350px;
+        align-items: center;
     }
 }
