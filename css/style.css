@@ -1,29 +1,25 @@
+
 header{
-    background-color: rgb(41, 0, 14);
-    height: 50px;
     position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 666666;
     width: 100%;
 }
+
 ul{
     display: flex;
     justify-content:space-evenly;
 }
-h1 {
-    display: flex;
+.navbar{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+.navbar-brand{
+    font-size: 50px;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 40px;
-    font-style: oblique;
-    font-weight: bolder;
-    color: rgb(211, 90, 165);
-    cursor: pointer;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: rgb(255, 0, 179) 4px 1px 2px ;
 }
-h1:hover{
-    color: palevioletred;
-}
-
 .heading{
     display: flex;
     justify-content: center;
@@ -32,15 +28,10 @@ h1:hover{
     margin: 15px;
     text-align:center;
 }
-.li-a{
-    color: rgb(255, 147, 214);
+.dropdown-link{
+    color: palevioletred;
 }
-.li-a:hover{
-    color: #ffeb3b;
-}
-.nav-bar{
-    display: none;
-}
+
 /* section 1 */
 
 .section1{
@@ -54,7 +45,6 @@ h1:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 30px;
 }
 
                                 /* section 2 */
@@ -109,7 +99,7 @@ h1:hover{
 .button{
     border: 2px whitesmoke solid;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -120,13 +110,14 @@ h1:hover{
     border: 3px rebeccapurple solid;
     background-color: burlywood;
     border-radius: 20px;
-    margin: 50px;
+    margin-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     cursor: pointer;
     transition: 0.5s;
+    text-decoration: none;
 }
 .container-line .plate{
     background-color:plum;
@@ -341,15 +332,17 @@ h1:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    width: 100%;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-    background: rgb(0,67,108);
-    background: linear-gradient(0deg, rgba(0,67,108,1) 46%, rgba(0,116,173,1) 93%); 
+    background: rgb(63,94,251);
+    background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1); 
 }
 .show h2{
     font-size: 50px;
@@ -415,6 +408,11 @@ margin-bottom: 45px;
 .footer-wrapper-2 a{
     color:rgb(181, 18, 231) ;
 }
+.footer-wrapper-2 a:hover{
+    text-decoration: none;
+    color: pink;
+    transition: 1.5s;
+}
 .footer-wrapper-2 h3{
     margin-left: 100px;
     display: flex;
@@ -442,6 +440,11 @@ margin-bottom: 45px;
 }
 .footer-wrapper a {
     color: rgb(181, 18, 231);
+}
+.footer-wrapper a:hover{
+    text-decoration: none;
+    color: pink;
+    transition: 1.5s;
 }
 .network{
     margin: 40px 0;
