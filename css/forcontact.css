@@ -6,29 +6,12 @@ header{
     z-index: 666666;
     width: 100%;
 }
-ul{
-    display: flex;
-    justify-content: space-evenly;
-}
-h1 > a {
+.navbar-brand{
     font-family: 'Nunito Sans', sans-serif;
+    display: flex;
     font-size: 40px;
     font-style: oblique;
     font-weight: bolder;
     color: rgb(211, 90, 165);
     cursor: pointer;
-}
-a:hover{
-    color: palevioletred;
-}
-.heading{
-    font-family: 'Nunito Sans', sans-serif;
-    margin: 15px;
-    text-align:center;
-}
-.li-a{
-    color:rgb(255, 147, 214);
-}
-.li-a:hover{
-    color: yellow;
 }
