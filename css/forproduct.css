@@ -1,8 +1,5 @@
-header{
-    background-color: rgb(41, 0, 14);
-    height: 50px;
-    position: fixed;
-    top: 0;
-    z-index: 666666;
-    width: 100%;
+.navbar-brand{
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: rgb(255, 0, 179) 2px 0 2px ;
 }
