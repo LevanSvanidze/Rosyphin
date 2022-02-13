@@ -1,11 +1,25 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @media (max-width:1200px){
     footer{
         height: 100%;
     }
     .row{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         width: 800px;
     }
     .footer-wrapper-3{
@@ -17,6 +31,8 @@
         width: 300px;
     }
     .footer-wrapper-1 > h3{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 40px;
     margin-bottom: 20px;
@@ -42,10 +58,14 @@
     }
     .footer-wrapper-2 ul{
         margin-left: 30%;
-        justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
 }
     .footer-wrapper-2 li{
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         margin-right: 15px;
     }
     }
@@ -83,9 +103,16 @@
 
 @media (max-width:824px){
     .container-line{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .candle-holder{
         margin-bottom: 50px;
@@ -122,7 +149,9 @@
     }
     .section1{
         width: 100%;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .show video{
         width: 99%;
