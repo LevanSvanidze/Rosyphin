@@ -451,14 +451,15 @@ footer{
     width: 300px;
 }
 .footer-wrapper-3 > h3{
-margin-left: 100px;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
-color: whitesmoke;
-font-size: 30px;
-font-weight: 600;
-margin-bottom: 45px;
+    margin-left: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 21px;
+    margin-top: -190px;
 }
 .footer-wrapper-1 > p{
     margin-left: 10px;
@@ -470,7 +471,7 @@ margin-bottom: 45px;
 .footer-wrapper-1{
     width: 250px;
     margin-top: 80px;
-    margin-left: -100px;
+    margin-left: -120px;
 }
 .footer-wrapper-1 > h3{
     margin-left: 20px;
@@ -484,6 +485,7 @@ margin-bottom: 45px;
     margin-bottom: 10px;
 }
 .footer-wrapper-2{
+    margin-left: -245px;
     width: 300px;
 }
 .footer-wrapper-2 a{
@@ -497,7 +499,7 @@ margin-bottom: 45px;
     transition: 0.5s;
 }
 .footer-wrapper-2 h3{
-    margin-left: 100px;
+    margin-left: -100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -506,12 +508,15 @@ margin-bottom: 45px;
     font-weight: 600;
     margin-top: 80px;
 }
-
+.footer-wrapper-2 ul{
+    margin-left: -170px;
+    width: 360px;
+}
 .footer-wrapper-2 ul li:not(last-child) {
     font-family: 'Quintessential', cursive;
     font-size: 18px;
-    margin-left: 10px;
-    padding: 92px 0;
+    margin-left: -50px;
+    padding: 60px 0;
     margin-top: -20px;
 }
 
