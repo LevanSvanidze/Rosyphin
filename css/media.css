@@ -37,11 +37,58 @@
         width: 100%;
     }
 }
-@media (max-width:250px){
+
+@media (max-width:300px){
     .s3 h3{
         font-size: 14px;
     }
     .s3 p{
         font-size: 10px;
+    }
+    .box{
+        max-width: 200px;
+        width: 50%;
+    }
+    .container-line .candle-holder{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+    .container-line .plate{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .container-line .Similarities{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .container-line .gift-set{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .container-line .candle{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .container-line .evil{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .section2-p-1{
+        font-size: 20px;
+        margin: 0 auto;
+        margin-left: 70%;
     }
 }
