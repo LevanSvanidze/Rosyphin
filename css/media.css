@@ -37,3 +37,11 @@
         width: 100%;
     }
 }
+@media (max-width:250px){
+    .s3 h3{
+        font-size: 14px;
+    }
+    .s3 p{
+        font-size: 10px;
+    }
+}
