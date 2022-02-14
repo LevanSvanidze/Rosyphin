@@ -3,3 +3,207 @@
     text-transform: uppercase;
     text-shadow: rgb(255, 0, 179) 2px 0 2px ;
 }
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    padding: 20px 100px;
+    margin-bottom: 50px;
+}
+.container:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/little\ things\ that\ turn\ a\ house\ into\ a\ home.png) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+.content-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.19);
+}
+
+.right{
+    padding: 25px 40px;
+}
+h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+h2:after{
+    content: '';
+    position:absolute ;
+    left: 5%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height:4px;
+    width: 50px;
+    border-radius: 5px;
+    background-color:#2ecc71 ;
+}
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0 );
+    background-color: rgba(230,230,230,0.6 );
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: 0.3s;
+}
+.field:hover{
+    background-color: rgba(0,0,0,0.1 );
+}
+.field:focus{
+    background-color: whitesmoke;
+    border: 3px solid rgba(30,85,250,0.47);
+}
+.area{
+    min-height: 150px;
+    resize: none;
+}
+.button{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #029e43;
+    outline: none;
+    cursor: pointer;
+    border: none ;
+    color: white;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: #005222;
+}
+                            /*map*/
+.map-wrapper{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    margin-bottom: 100px;
+    border: 2px solid #103d23;
+}
+.googlemap{
+    width: 100%;
+}
+
+                            /*footer*/
+footer{
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    background: rgb(46,80,144);
+    background: linear-gradient(0deg, rgba(46,80,144,1) 52%, rgba(0,93,201,1) 76%);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social_icon,footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social_icon li,footer .menu li{
+    list-style: none;
+}
+footer .social_icon li a{
+    font-size: 2em;
+    color: whitesmoke;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .menu li a{
+    font-size: 1.2em;
+    color: whitesmoke;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover{
+    opacity: 1;
+    color: black;
+    transition: 1s;
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../images/wave.png);
+    background-size: 1000px 100px;
+}
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1 ;
+    bottom: 0;
+    animation: animativeWave 4s linear infinite;
+}
+footer .wave#wave2{
+    z-index: 999;
+    opacity:0.5 ;
+    bottom: 10px;
+    animation: animativeWave_02 4s linear infinite;
+}
+footer .wave#wave3{
+    z-index: 1000;
+    opacity:0.2 ;
+    bottom: 0;
+    animation: animativeWave 3s linear infinite;
+}
+footer .wave#wave4{
+    z-index: 999;
+    opacity:0.7 ;
+    bottom: 20px;
+    animation: animativeWave_02 3s linear infinite;
+}
+@keyframes animativeWave{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+@keyframes animativeWave_02{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
