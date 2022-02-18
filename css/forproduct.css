@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 html{
     scroll-behavior: smooth;
 }
@@ -12,7 +19,8 @@ body:after{
         background: url(../images/little\ things\ that\ turn\ a\ house\ into\ a\ home.png) no-repeat center;
         background-size: cover;
         z-index: -1;
-        filter: blur(50px);
+        -webkit-filter: blur(50px);
+                filter: blur(50px);
     } 
 .navbar-brand{
     font-weight: 800;
@@ -34,6 +42,8 @@ body:after{
 .slide-content img:hover{
     height: 110px;
     width: 110px;
+    -webkit-transition: 5s;
+    -o-transition: 5s;
     transition: 5s;
 }
 .slide-content h2{
@@ -43,6 +53,8 @@ body:after{
 .slide-content h2:hover{
     color: rgb(255, 0, 0);
     font-family:'Yellowtail', cursive;
+    -webkit-transition: 4s;
+    -o-transition: 4s;
     transition: 4s;
 }
 #slider{
@@ -82,6 +94,8 @@ body:after{
     margin-left: -300%;
 }
 #slides .inner{
+    -webkit-transition: margin-left 800ms cubic-bezier(0.770,0.000,0.175,1.000);
+    -o-transition: margin-left 800ms cubic-bezier(0.770,0.000,0.175,1.000);
     transition: margin-left 800ms cubic-bezier(0.770,0.000,0.175,1.000);
     width: 400%;
     line-height: 0;
@@ -96,6 +110,8 @@ body:after{
 }
 #slides .slide_1{
     background: rgb(63,0,73);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(63,0,73,1)), color-stop(56%, rgba(0,0,0,0.7147992986257004)), to(rgba(10,2,93,1)));
+    background: -o-linear-gradient(left, rgba(63,0,73,1) 0%, rgba(0,0,0,0.7147992986257004) 56%, rgba(10,2,93,1) 100%);
     background: linear-gradient(90deg, rgba(63,0,73,1) 0%, rgba(0,0,0,0.7147992986257004) 56%, rgba(10,2,93,1) 100%); 
 }
 #slides .slide_2{
@@ -103,6 +119,8 @@ body:after{
 }
 #slides .slide_3{
     background: rgb(255,142,247);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255,142,247,0.8884687664128151)), color-stop(66%, rgba(0,0,0,0.8268441165528712)), to(rgba(255,106,106,0.7960317916228992)));
+    background: -o-linear-gradient(left, rgba(255,142,247,0.8884687664128151) 0%, rgba(0,0,0,0.8268441165528712) 66%, rgba(255,106,106,0.7960317916228992) 100%);
     background: linear-gradient(90deg, rgba(255,142,247,0.8884687664128151) 0%, rgba(0,0,0,0.8268441165528712) 66%, rgba(255,106,106,0.7960317916228992) 100%); 
 }
 #slides .slide_4{
@@ -119,6 +137,8 @@ body:after{
     z-index: 666;
 }
 #controls label{
+    -webkit-transition: opacity 0.2s ease-out;
+    -o-transition: opacity 0.2s ease-out;
     transition: opacity 0.2s ease-out;
     display: none;
     width: 50px;
@@ -154,20 +174,38 @@ footer{
     width: 100%;
     min-height: 100px;
     background: rgb(46,80,144);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(52%, rgba(46,80,144,1)), color-stop(76%, rgba(0,93,201,1)));
+    background: -o-linear-gradient(bottom, rgba(46,80,144,1) 52%, rgba(0,93,201,1) 76%);
     background: linear-gradient(0deg, rgba(46,80,144,1) 52%, rgba(0,93,201,1) 76%);
     padding: 20px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 footer .social_icon,footer .menu{
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 10px 0;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 footer .social_icon li,footer .menu li{
     list-style: none;
@@ -177,6 +215,8 @@ footer .social_icon li a{
     color: whitesmoke;
     margin: 0 10px;
     display: inline-block;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
 }
 footer .menu li a{
@@ -184,6 +224,8 @@ footer .menu li a{
     color: whitesmoke;
     margin: 0 10px;
     display: inline-block;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     text-decoration: none;
     opacity: 0.75;
@@ -191,10 +233,14 @@ footer .menu li a{
 footer .menu li a:hover{
     opacity: 1;
     color: black;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
 }
 footer .social_icon li a:hover{
-    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+            transform: translateY(-10px);
 }
 footer p{
     color: #fff;
@@ -216,25 +262,37 @@ footer .wave#wave1{
     z-index: 1000;
     opacity: 1 ;
     bottom: 0;
-    animation: animativeWave 4s linear infinite;
+    -webkit-animation: animativeWave 4s linear infinite;
+            animation: animativeWave 4s linear infinite;
 }
 footer .wave#wave2{
     z-index: 999;
     opacity:0.5 ;
     bottom: 10px;
-    animation: animativeWave_02 4s linear infinite;
+    -webkit-animation: animativeWave_02 4s linear infinite;
+            animation: animativeWave_02 4s linear infinite;
 }
 footer .wave#wave3{
     z-index: 1000;
     opacity:0.2 ;
     bottom: 0;
-    animation: animativeWave 3s linear infinite;
+    -webkit-animation: animativeWave 3s linear infinite;
+            animation: animativeWave 3s linear infinite;
 }
 footer .wave#wave4{
     z-index: 999;
     opacity:0.7 ;
     bottom: 20px;
-    animation: animativeWave_02 3s linear infinite;
+    -webkit-animation: animativeWave_02 3s linear infinite;
+            animation: animativeWave_02 3s linear infinite;
+}
+@-webkit-keyframes animativeWave{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
 }
 @keyframes animativeWave{
     0%{
@@ -242,6 +300,14 @@ footer .wave#wave4{
     }
     100%{
         background-position-x: 0px;
+    }
+}
+@-webkit-keyframes animativeWave_02{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
     }
 }
 @keyframes animativeWave_02{

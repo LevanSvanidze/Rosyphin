@@ -1,94 +1,101 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @media (max-width:780px){
     
-.container-line{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-}
-.candle-holder{
-    margin-bottom: 50px;
-}
-.plate{
-    margin-bottom: 50px;
-}
-.gift-set{
-    margin-bottom: 50px;
-}
-.candle{
-    margin-bottom: 50px;
-}
-.show{
-    height: 100%;
-}
-    
-}
-@media (max-width:640px){
-    .show video{
-        width: 80%;
+    .container-line{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
-    .show h2{
-        width: 100%;
+    .candle-holder{
+        margin-bottom: 50px;
     }
-}
-
-@media (max-width:300px){
-    .s3 h3{
-        font-size: 14px;
+    .plate{
+        margin-bottom: 50px;
     }
-    .s3 p{
-        font-size: 10px;
+    .gift-set{
+        margin-bottom: 50px;
     }
-    .box{
-        max-width: 200px;
-        width: 50%;
+    .candle{
+        margin-bottom: 50px;
     }
-    .container-line .candle-holder{
-        width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+    .show{
+        height: 100%;
+    }
         
     }
-    .container-line .plate{
-        width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+    @media (max-width:640px){
+        .show video{
+            width: 80%;
+        }
+        .show h2{
+            width: 100%;
+        }
     }
-    .container-line .Similarities{
-        width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+    
+    @media (max-width:300px){
+        .s3 h3{
+            font-size: 14px;
+        }
+        .s3 p{
+            font-size: 10px;
+        }
+        .box{
+            max-width: 200px;
+            width: 50%;
+        }
+        .container-line .candle-holder{
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            
+        }
+        .container-line .plate{
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .container-line .Similarities{
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .container-line .gift-set{
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .container-line .candle{
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .container-line .evil{
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .section2-p-1{
+            font-size: 20px;
+            margin: 0 auto;
+            margin-left: 70%;
+        }
     }
-    .container-line .gift-set{
-        width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-    .container-line .candle{
-        width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-    .container-line .evil{
-        width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-    .section2-p-1{
-        font-size: 20px;
-        margin: 0 auto;
-        margin-left: 70%;
-    }
-}
