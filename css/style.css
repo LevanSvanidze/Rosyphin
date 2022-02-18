@@ -314,7 +314,7 @@ ul{
     padding: 30px;
     border-radius: 30px;
     -webkit-box-shadow: 0 10px 10px 0 rgb(181, 18, 231);
-            box-shadow: 0 10px 10px 0 rgb(181, 18, 231);
+    box-shadow: 0 10px 10px 0 rgb(181, 18, 231);
     -webkit-transition: 0.8s;
     -o-transition: 0.8s;
     transition: 0.8s;
@@ -328,7 +328,7 @@ ul{
     width: 200px;
     height: 130px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 20px;
     display: block;
     margin-left: auto;

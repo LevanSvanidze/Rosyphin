@@ -1,10 +1,49 @@
 html{
     scroll-behavior: smooth;
 }
+body:after{
+    
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/little\ things\ that\ turn\ a\ house\ into\ a\ home.png) no-repeat center;
+        background-size: cover;
+        z-index: -1;
+        filter: blur(50px);
+    } 
 .navbar-brand{
     font-weight: 800;
     text-transform: uppercase;
     text-shadow: rgb(255, 0, 179) 2px 0 2px ;
+}
+.slide-content img{
+    height:110px;
+    width: 110px;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 8px 20px  purple;
+    box-shadow: 3px purple 5px 16px;
+}
+.slide-content img:hover{
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.425);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.425);
+}
+.slide-content img:hover{
+    height: 110px;
+    width: 110px;
+    transition: 5s;
+}
+.slide-content h2{
+    color: pink;
+    cursor: pointer;
+}
+.slide-content h2:hover{
+    color: rgb(255, 0, 0);
+    font-family:'Yellowtail', cursive;
+    transition: 4s;
 }
 #slider{
     margin: 0 auto;
@@ -21,8 +60,7 @@ html{
 }
 #slides {
     margin-top: 50px;
-    padding: 20px;
-    border: 3px solid #ccc;
+    border: 3px solid palevioletred;
     background:#fff;
     position: relative;
     z-index: 1;
@@ -57,16 +95,18 @@ html{
     color: #fff;
 }
 #slides .slide_1{
-    background:#00171f;
+    background: rgb(63,0,73);
+    background: linear-gradient(90deg, rgba(63,0,73,1) 0%, rgba(0,0,0,0.7147992986257004) 56%, rgba(10,2,93,1) 100%); 
 }
 #slides .slide_2{
-    background:#003459;
+    background:#00171f;
 }
 #slides .slide_3{
-    background:#007ea7;
+    background: rgb(255,142,247);
+    background: linear-gradient(90deg, rgba(255,142,247,0.8884687664128151) 0%, rgba(0,0,0,0.8268441165528712) 66%, rgba(255,106,106,0.7960317916228992) 100%); 
 }
 #slides .slide_4{
-    background:#00a8e8;
+    background:#00171f;
 }
 .slide-content{
     padding: 10px;
